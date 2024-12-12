@@ -1,0 +1,26 @@
+import tkinter as tk
+from tkinter import ttk
+
+def cancularSensacionTermica():
+
+    ventana = tk. Tk()
+    ventana.title ("Sensacion")
+    ventana.confing(width=500, height=300)
+
+# Etiquetas
+etiqueta_sensacion= ttk.Label(text="Introduce sensacion")
+etiqueta_sensacion= ttk.Label(text="Introduce sensacion")
+etiqueta_temperatura = ttk.Label(text="Introduce la temperatura")
+etiqueta_temperatura.place (x=10, y=40)
+etiqueta_velocidadViento= ttk.Label(text="Introduce la velocidadViento")
+etiqueta_velocidadViento.place (x=10, y=40)
+
+# Input o TextBox
+input_sensacion =ttk. Entry()
+input_sensacion.place(x=200, y=10, width=80)
+input_temperatura=ttk. Entry()
+input_temperatura.place(x=200, y=10, width=80)
+input_velociadadViento =ttk. Entry()
+input_velociadadViento.place(x=200, y=10, width=80)
+
+ventana .mainloop()
